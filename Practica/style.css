@@ -1,12 +1,21 @@
-<style> h1{color: red;}
-body {background-color: black;}
- 
-   <h1 class="parrafo">Listas de ejercicios básicos de Crossfit
-   Listas de ejercicios básicos de Crossfit
-   <h1 id="Parrafodos">Listas de ejercicios básicos de Crossfit</h1> <h5
->Tres pilares fundamentales de la vida saludable</h5>
+h1 {
 
-li {color:aquamarine}    
-.parrafo {color: darkgreen;}
-#parrafodos {color: darkorchid;}
-</style>
+   color:sienna
+}
+/* Este indica una etiqueta */
+p {
+
+   color:slateblue
+}
+
+/* Este es para una clase */
+.parrafo {
+
+   color:tomato
+}
+
+/* Este es para un ID */
+#parrafodos {
+
+   color:yellowgreen
+}

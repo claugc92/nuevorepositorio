@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,44 @@
     <title>Document</title>
 </head>
 <body>
-    <table>
-        <label for=""></label>
-    </table>
+    <main>
+
+        <form>
+            <label for="Nombre">
+            <span>¿Cual es tu nombre?</span>
+            <input type="text" name="Nombre"   id="Nombre" autocomplete="none">
+        </label>
+            TIPO MAIL SIRVE PARA COMPLETAR EL
+        <label for="Correo">
+            <span> Tu correo</span>
+            <input type="mail" name="Correo" id="Correo" required>
+        </label>
+
+        <label for="Calendario">
+            <span>Calendario</span>
+            <input type="datetime-local" id="Calendario">
+
+        </label>
+
+            <input list="Cursos">
+            <datalist id="Cursos"> 
+
+            <option value="Fullstack">Fullstack</option>
+            <option value="Tester">Tester</option>
+            <option value="Marketing">Marketing</option>
+            <option value="DataEntry">DataEntry</option>
+            </datalist>
+
+        <select>
+
+            <option value="Futbol">Futbol</option>
+            <option value="Tenis">Tenis</option>
+            <option value="Rugby">Rugby</option>
+            <option value="Crossfit">Crossfit</option>
+
+            <input type="submit">
+        </select>
+        </form>
+    </main>
 </body>
 </html>
