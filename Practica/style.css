@@ -11,11 +11,14 @@ p {
 /* Este es para una clase */
 .parrafo {
 
+   font-size: 19px;
    color:tomato
+
 }
 
 /* Este es para un ID */
 #parrafodos {
-
+   font-family: monospace; 
+   /* esto indica la fuente */
    color:yellowgreen
 }
