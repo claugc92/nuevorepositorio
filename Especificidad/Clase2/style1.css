@@ -20,9 +20,16 @@ h1 {
     background-color: crimson;
 }
 
-#main-nav a {
+.nav a {
 
-    color:cadetblue;
-    background-color: blueviolet
-
+    background-color: chocolate;
+    color:cornsilk
 }
+
+.nav .aprende {
+
+    background-color: blue;
+    color:white
+}
+
+

@@ -1,0 +1,26 @@
+body {
+
+    width: 400px;
+    margin: 0 auto;
+}
+
+.caja1 {
+
+    background-color: brown;
+    width: 400px; -ancho-
+    height: 100px; -alto-
+    padding: 20px;
+    border: 20px solid chocolate;
+    margin-top:50px;
+    margin-bottom:50px;
+    box-sizing: border-box;
+
+}
+
+.caja2 {
+
+    background-color:cadetblue;
+    width: 400px;
+    height: 100px;
+}
+
