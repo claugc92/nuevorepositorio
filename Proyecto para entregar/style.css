@@ -1,0 +1,34 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.image {
+
+    background-color: black;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 50px solid=black;
+    margin-bottom: 80px solid=black;
+}
+
+#contenido {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color:white
+    
+}
+
+#title {
+
+    margin-bottom: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:yellowgreen
+    
+    
+}
