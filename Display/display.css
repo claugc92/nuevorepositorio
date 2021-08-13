@@ -1,0 +1,25 @@
+.block-element {
+  background-color: blueviolet;
+  margin: 10px;
+  padding: 20px;  
+}
+
+.nav {
+
+  background-color: brown;
+  padding: 20px;
+  list-style: none; 
+  /* esto es para sacarle la numeracion */
+text-align: center;
+/* esto es para centrar el texto */
+
+}
+
+.nav li {
+  font-size: 20px;
+  margin: 10px 15px;
+  padding-left: 20px;
+padding-right: 30px;
+display: inline-block;
+
+}

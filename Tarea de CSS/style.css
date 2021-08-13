@@ -1,19 +1,25 @@
 h1 {
 
-    color:blue
-    
-}
-
-p {
-    
-    font-size: color: red;
-}
-.parrafo {
-
-    color:red;
-}
-
-#parrafodos {
-
-    color:seagreen
-}
+    color:sienna
+ }
+ /* Este indica una etiqueta */
+ p {
+ 
+    color:slateblue
+ }
+ 
+ /* Este es para una clase */
+ .parrafo {
+ 
+    font-size: 19px;
+    color:tomato
+ 
+ }
+ 
+ /* Este es para un ID */
+ #parrafodos {
+    font-family: monospace; 
+    /* esto indica la fuente */
+    color:yellowgreen
+ }
+ 

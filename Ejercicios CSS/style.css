@@ -1,0 +1,21 @@
+.grid-container{
+
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   row-gap: 15px ;
+   background-color:deepskyblue;
+   box-sizing: border-box;
+   border: 15px solid deepskyblue;
+   text-align: center;
+   column-gap: 15px;
+   
+
+}
+
+.grid-container div {
+
+ color:blue;
+   background-color:darkseagreen;
+   font-family: cursive;
+   border-radius: 10%;
+}
