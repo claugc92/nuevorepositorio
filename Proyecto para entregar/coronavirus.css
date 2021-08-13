@@ -1,0 +1,27 @@
+img{
+
+    display: inline-block;
+    margin: auto;
+}
+
+.contenido{
+
+    font-family: sans-serif;
+    background-color:goldenrod;
+    margin: 20px 10px;
+    color: white;
+    border: 5px solid  white;
+    border-radius: 5%;
+    display: inline-block;
+}
+
+.list{
+
+    font-family: sans-serif;
+    background-color: greenyellow;
+    margin: 20px 10px;
+    color: white;
+    border: 5px solid  white;
+    border-radius: 5%;
+    display: inline-block;
+}
