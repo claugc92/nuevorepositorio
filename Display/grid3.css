@@ -1,0 +1,39 @@
+#padre{
+
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    /* estas son las columnas */
+    grid-template-rows: 200px 50px;
+    /* estas son las filas */
+    grid-auto-rows: 100px;
+    column-gap: 20px;
+    row-gap: 20px;
+    /* colum gap y row son las distancias entre ellos */
+    /* grid-gap: 20px; */
+    /* distancias tanto en filas como columnas de manera igual */
+}
+
+
+.red{
+    display: grid;
+    background-color: salmon;
+    align-items: center;
+    justify-items: center;
+}
+
+.green{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background-color: springgreen;
+}
+
+.blue{
+    display: grid;
+    /* Para alinear con aligh y justify se necesita el grid para que reconozca  */
+    background-color: slateblue;
+    align-items: center;
+    /* centra tomando como referencia arriba y abajo */
+    justify-items: center;
+    /* centra tomando como referencia los costados */
+}

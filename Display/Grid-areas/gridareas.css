@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas: "header header"
+                        "aside maincontect"
+                        "aside maincontect"
+                        "footer footer";
+
+height: 100vh;
+/* con esto tomamos todo el alto de la pantalla */
+}
+
+header {
+    background-color: brown;
+    grid-area: header;
+
+}
+
+aside {
+    background-color: cadetblue;
+    grid-area: aside;
+
+}
+
+main{
+    background-color: chocolate;
+    grid-area: maincontect;
+}
+
+footer{
+    background-color: darkcyan;
+    grid-area: footer;
+}
